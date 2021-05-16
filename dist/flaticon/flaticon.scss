@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("truetype"),
-url("./flaticon.woff?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff"),
-url("./flaticon.woff2?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff2"),
-url("./flaticon.eot?fc0c2b2e2dc35df1a22762c0cc4e49a1#iefix") format("embedded-opentype"),
-url("./flaticon.svg?fc0c2b2e2dc35df1a22762c0cc4e49a1#flaticon") format("svg");
+    src: url("./flaticon.ttf?ebbbfd446a3007ee43fdf8045ca78c26") format("truetype"),
+url("./flaticon.woff?ebbbfd446a3007ee43fdf8045ca78c26") format("woff"),
+url("./flaticon.woff2?ebbbfd446a3007ee43fdf8045ca78c26") format("woff2"),
+url("./flaticon.eot?ebbbfd446a3007ee43fdf8045ca78c26#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ebbbfd446a3007ee43fdf8045ca78c26#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -31,6 +31,7 @@ $flaticon-map: (
     "whatsapp": "\f108",
     "gmail": "\f109",
     "line": "\f10a",
+    "linkedin": "\f10b",
 );
 
 .flaticon-menu:before {
@@ -62,4 +63,7 @@ $flaticon-map: (
 }
 .flaticon-line:before {
     content: map-get($flaticon-map, "line");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
 }
