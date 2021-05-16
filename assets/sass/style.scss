@@ -80,12 +80,7 @@ body {
 }
 
 #home {
-  height: 100vh;
   position: relative;
-  background-image: url(../img/bg-header.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
   .logo {
     position: absolute;
     top: 0;
@@ -101,7 +96,12 @@ body {
     }
   }
   .header {
-    height: 75vh;
+    min-height: 100vh;
+    background-image: url(../img/bg-header.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
     &-title {
       font-size: 3rem;
       font-weight: 700;
@@ -111,13 +111,16 @@ body {
       font-size: 1.5rem;
       color: $white-color;
     }
+    &-image {
+      max-width: 250px;
+    }
   }
 }
 
 .about {
+  min-height: 100vh;
+  margin: -5rem 0;
   background-color: transparent;
-  margin-top: -5rem;
-  height: 90vh;
   &-title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -165,13 +168,12 @@ body {
 
 #project {
   position: relative;
-  height: 120vh;
-  background-image: url(../img/bg-home.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
   .project {
-    height: 100vh;
+    min-height: 100vh;
+    background-image: url(../img/bg-home.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     &-link {
       color: $yellow-color;
       font-weight: 700;
@@ -206,8 +208,8 @@ body {
 }
 
 .pricing {
-  margin-top: -10rem;
-  height: 100vh;
+  min-height: 100vh;
+  margin: -5rem 0;
   h2 {
     font-size: 1.5rem;
     color: $green-color;
@@ -290,13 +292,11 @@ body {
 }
 
 #footer {
-  margin-top: -10rem;
-  height: 100vh;
-  background-image: url(../img/bg-footer.png);
-  background-size: 100% 100%;
-  background-position: center;
   .footer {
-    height: 100vh;
+    min-height: 100vh;
+    background-image: url(../img/bg-footer.png);
+    background-size: 100% 100%;
+    background-position: center;
   }
   h2 {
     color: $white-color;
@@ -304,36 +304,19 @@ body {
     font-weight: 700;
   }
 }
-@media screen and (max-height: 576px) {
-  #home {
-    height: 100vh;
-    background-size: 100% 100%;
-  }
-  #project {
-    min-height: 100vh;
-    background-size: 100% 100%;
-  }
-}
 
 @media screen and (max-width: 992px) {
-  .about {
-    margin-top: 0;
-    height: auto;
-  }
-  #project {
-    height: 120vh;
+  #home .header,
+  #project .project,
+  #footer .footer {
+    padding: 5rem 0;
     background-size: cover;
-    background-position-x: right;
+    background-position: cover;
   }
+
+  .about,
   .pricing {
-    margin-top: 0rem;
-    height: auto;
-  }
-  #footer {
-    margin-top: 0rem;
-    height: auto;
-    background-size: cover;
-    background-position: center;
+    margin: 0;
   }
 }
 
@@ -342,16 +325,16 @@ body {
     right: 1rem;
     border-right: none;
   }
-  #home {
-    height: 100vh;
-    background-size: cover;
-    background-position: right;
+
+  .header {
+    &-image {
+      width: 50%;
+    }
   }
 }
 
 @media screen and (max-width: 576px) {
   #home {
-    height: 100vh;
     .logo {
       position: absolute;
       top: 0;
