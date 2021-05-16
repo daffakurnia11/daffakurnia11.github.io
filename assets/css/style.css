@@ -363,8 +363,19 @@ body {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    right: 1rem;
+    padding-right: 0;
+    right: 0;
     border-right: none;
+  }
+  .navbar-collapse {
+    background-color: rgba(22, 106, 83, 0.9);
+    width: 100vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .navbar-collapse ul {
+    padding: 0;
   }
   .header-image {
     width: 50%;

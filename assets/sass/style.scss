@@ -322,8 +322,17 @@ body {
 
 @media screen and (max-width: 768px) {
   .navbar {
-    right: 1rem;
+    padding-right: 0;
+    right: 0;
     border-right: none;
+    &-collapse {
+      ul {
+        padding: 0;
+      }
+      background-color: transparentize($color: $green-color, $amount: 0.1);
+      width: 100vw;
+      height: fit-content;
+    }
   }
 
   .header {
