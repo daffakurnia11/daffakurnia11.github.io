@@ -158,7 +158,6 @@ body {
 .about-icon {
   display: inline-block;
   height: 120px;
-  background-color: #24b28b;
   position: relative;
   margin-bottom: 2.5rem;
 }
@@ -169,7 +168,7 @@ body {
 .about-icon .flaticon-sound-mixer::before {
   line-height: 120px;
   font-size: 90px;
-  color: #ffffff;
+  color: #166a53;
   padding: 15px 15px;
 }
 
@@ -178,7 +177,7 @@ body {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #24b28b;
+  background-color: #166a53;
   left: 0;
   bottom: -1.5rem;
 }
@@ -193,7 +192,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-40%);
           transform: translateX(-40%);
-  background-color: #24b28b;
+  background-color: #166a53;
 }
 
 .about .icon-title {
@@ -367,6 +366,15 @@ body {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+#footer .contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer .contact a i {
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 992px) {

@@ -1,41 +1,50 @@
 @font-face {
-  font-family: "flaticon";
-  src: url("./flaticon.ttf?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("truetype"),
-    url("./flaticon.woff?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("woff"),
-    url("./flaticon.woff2?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("woff2"),
-    url("./flaticon.eot?4e19c7d2e9fd0b4557df6586bdaf0f9f#iefix")
-      format("embedded-opentype"),
-    url("./flaticon.svg?4e19c7d2e9fd0b4557df6586bdaf0f9f#flaticon")
-      format("svg");
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("truetype"),
+url("./flaticon.woff?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff"),
+url("./flaticon.woff2?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff2"),
+url("./flaticon.eot?fc0c2b2e2dc35df1a22762c0cc4e49a1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fc0c2b2e2dc35df1a22762c0cc4e49a1#flaticon") format("svg");
 }
 
-i[class^="flaticon-"]:before,
-i[class*=" flaticon-"]:before {
-  font-family: flaticon !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .flaticon-menu:before {
-  content: "\f101";
+    content: "\f101";
 }
 .flaticon-check-mark:before {
-  content: "\f102";
+    content: "\f102";
 }
 .flaticon-discussion:before {
-  content: "\f103";
+    content: "\f103";
 }
 .flaticon-loss:before {
-  content: "\f104";
+    content: "\f104";
 }
 .flaticon-clock:before {
-  content: "\f105";
+    content: "\f105";
 }
 .flaticon-sound-mixer:before {
-  content: "\f106";
+    content: "\f106";
+}
+.flaticon-instagram:before {
+    content: "\f107";
+}
+.flaticon-whatsapp:before {
+    content: "\f108";
+}
+.flaticon-gmail:before {
+    content: "\f109";
+}
+.flaticon-line:before {
+    content: "\f10a";
 }

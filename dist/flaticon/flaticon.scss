@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("truetype"),
-url("./flaticon.woff?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("woff"),
-url("./flaticon.woff2?4e19c7d2e9fd0b4557df6586bdaf0f9f") format("woff2"),
-url("./flaticon.eot?4e19c7d2e9fd0b4557df6586bdaf0f9f#iefix") format("embedded-opentype"),
-url("./flaticon.svg?4e19c7d2e9fd0b4557df6586bdaf0f9f#flaticon") format("svg");
+    src: url("./flaticon.ttf?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("truetype"),
+url("./flaticon.woff?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff"),
+url("./flaticon.woff2?fc0c2b2e2dc35df1a22762c0cc4e49a1") format("woff2"),
+url("./flaticon.eot?fc0c2b2e2dc35df1a22762c0cc4e49a1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fc0c2b2e2dc35df1a22762c0cc4e49a1#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -27,6 +27,10 @@ $flaticon-map: (
     "loss": "\f104",
     "clock": "\f105",
     "sound-mixer": "\f106",
+    "instagram": "\f107",
+    "whatsapp": "\f108",
+    "gmail": "\f109",
+    "line": "\f10a",
 );
 
 .flaticon-menu:before {
@@ -46,4 +50,16 @@ $flaticon-map: (
 }
 .flaticon-sound-mixer:before {
     content: map-get($flaticon-map, "sound-mixer");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-gmail:before {
+    content: map-get($flaticon-map, "gmail");
+}
+.flaticon-line:before {
+    content: map-get($flaticon-map, "line");
 }
