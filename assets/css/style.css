@@ -46,7 +46,20 @@ body {
 }
 
 .navbar-toggler-icon {
+  color: #166a53;
   background-color: #fbb816;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar .flaticon-menu:before {
+  font-size: 1.75rem;
+  color: #166a53;
+  background-color: #fbb816;
+  padding: 0.5rem 0.5rem 1rem 1rem;
+  border-bottom-left-radius: 5rem;
 }
 
 .navbar ul li {
@@ -86,7 +99,7 @@ body {
 }
 
 #home .logo {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -144,11 +157,20 @@ body {
 
 .about-icon {
   display: inline-block;
-  width: 120px;
   height: 120px;
   background-color: #24b28b;
   position: relative;
   margin-bottom: 2.5rem;
+}
+
+.about-icon .flaticon-discussion::before,
+.about-icon .flaticon-loss::before,
+.about-icon .flaticon-clock::before,
+.about-icon .flaticon-sound-mixer::before {
+  line-height: 120px;
+  font-size: 90px;
+  color: #ffffff;
+  padding: 15px 15px;
 }
 
 .about-icon .icon-underline {
@@ -383,16 +405,6 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  #home .logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  #home .logo-content {
-    display: inline-block;
-    background-color: #fbb816;
-    border-bottom-right-radius: 100px;
-  }
   #home .logo-image {
     width: 60px;
     padding: 0.5rem 1rem 1rem 0.5rem;

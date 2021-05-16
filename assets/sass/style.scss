@@ -46,7 +46,18 @@ body {
   padding-right: 1rem;
   border-right: 2px solid $yellow-color;
   &-toggler-icon {
+    color: $green-color;
     background-color: $yellow-color;
+  }
+  &-toggler {
+    padding: 0;
+  }
+  .flaticon-menu:before {
+    font-size: 1.75rem;
+    color: #166a53;
+    background-color: #fbb816;
+    padding: 0.5rem 0.5rem 1rem 1rem;
+    border-bottom-left-radius: 5rem;
   }
   ul {
     li {
@@ -82,7 +93,7 @@ body {
 #home {
   position: relative;
   .logo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     &-content {
@@ -131,11 +142,19 @@ body {
   }
   &-icon {
     display: inline-block;
-    width: 120px;
     height: 120px;
     background-color: #24b28b;
     position: relative;
     margin-bottom: 2.5rem;
+    .flaticon-discussion::before,
+    .flaticon-loss::before,
+    .flaticon-clock::before,
+    .flaticon-sound-mixer::before {
+      line-height: 120px;
+      font-size: 90px;
+      color: $white-color;
+      padding: 15px 15px;
+    }
     .icon-underline {
       content: "";
       position: absolute;
@@ -345,14 +364,6 @@ body {
 @media screen and (max-width: 576px) {
   #home {
     .logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      &-content {
-        display: inline-block;
-        background-color: $yellow-color;
-        border-bottom-right-radius: 100px;
-      }
       &-image {
         width: 60px;
         padding: 0.5rem 1rem 1rem 0.5rem;
