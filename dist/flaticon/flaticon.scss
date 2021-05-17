@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?ebbbfd446a3007ee43fdf8045ca78c26") format("truetype"),
-url("./flaticon.woff?ebbbfd446a3007ee43fdf8045ca78c26") format("woff"),
-url("./flaticon.woff2?ebbbfd446a3007ee43fdf8045ca78c26") format("woff2"),
-url("./flaticon.eot?ebbbfd446a3007ee43fdf8045ca78c26#iefix") format("embedded-opentype"),
-url("./flaticon.svg?ebbbfd446a3007ee43fdf8045ca78c26#flaticon") format("svg");
+    src: url("./flaticon.ttf?e95df9d7eb22a9d402abbb1f75a76185") format("truetype"),
+url("./flaticon.woff?e95df9d7eb22a9d402abbb1f75a76185") format("woff"),
+url("./flaticon.woff2?e95df9d7eb22a9d402abbb1f75a76185") format("woff2"),
+url("./flaticon.eot?e95df9d7eb22a9d402abbb1f75a76185#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e95df9d7eb22a9d402abbb1f75a76185#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -32,6 +32,23 @@ $flaticon-map: (
     "gmail": "\f109",
     "line": "\f10a",
     "linkedin": "\f10b",
+    "registration": "\f10c",
+    "admin": "\f10d",
+    "man": "\f10e",
+    "folder-management": "\f10f",
+    "monitor": "\f110",
+    "files": "\f111",
+    "delivery": "\f112",
+    "catalog": "\f113",
+    "location": "\f114",
+    "score": "\f115",
+    "immigration": "\f116",
+    "speech-bubble": "\f117",
+    "online-shop": "\f118",
+    "calendar": "\f119",
+    "qr-code": "\f11a",
+    "personal-information": "\f11b",
+    "link": "\f11c",
 );
 
 .flaticon-menu:before {
@@ -66,4 +83,55 @@ $flaticon-map: (
 }
 .flaticon-linkedin:before {
     content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-registration:before {
+    content: map-get($flaticon-map, "registration");
+}
+.flaticon-admin:before {
+    content: map-get($flaticon-map, "admin");
+}
+.flaticon-man:before {
+    content: map-get($flaticon-map, "man");
+}
+.flaticon-folder-management:before {
+    content: map-get($flaticon-map, "folder-management");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-files:before {
+    content: map-get($flaticon-map, "files");
+}
+.flaticon-delivery:before {
+    content: map-get($flaticon-map, "delivery");
+}
+.flaticon-catalog:before {
+    content: map-get($flaticon-map, "catalog");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-score:before {
+    content: map-get($flaticon-map, "score");
+}
+.flaticon-immigration:before {
+    content: map-get($flaticon-map, "immigration");
+}
+.flaticon-speech-bubble:before {
+    content: map-get($flaticon-map, "speech-bubble");
+}
+.flaticon-online-shop:before {
+    content: map-get($flaticon-map, "online-shop");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-qr-code:before {
+    content: map-get($flaticon-map, "qr-code");
+}
+.flaticon-personal-information:before {
+    content: map-get($flaticon-map, "personal-information");
+}
+.flaticon-link:before {
+    content: map-get($flaticon-map, "link");
 }
