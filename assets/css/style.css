@@ -428,6 +428,12 @@ body {
   min-height: 80vh;
 }
 
+#package-table .package-content-title {
+  font-size: 2rem;
+  color: #166a53;
+  font-weight: 700;
+}
+
 #package-table .facilities-item {
   padding: 0.75rem 0.5rem;
   border-top: 1px solid grey;
@@ -601,6 +607,9 @@ body {
   #package-page .header-description {
     font-size: 1rem;
     color: #ffffff;
+  }
+  #package-table .package-content-title {
+    font-size: 1.5rem;
   }
   #package-table .facilities-item {
     padding: 0.75rem 0.25rem;
