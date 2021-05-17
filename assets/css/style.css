@@ -19,6 +19,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 0.25rem;
+  height: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -35,6 +36,20 @@ body {
 
 .v-height-75 {
   min-height: 75vh;
+}
+
+.green-button {
+  padding: 1rem 2rem;
+  color: #ffffff;
+  border-radius: 2rem;
+  background-color: #166a53;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.green-button:hover {
+  background-color: #fbb816;
+  color: #166a53;
 }
 
 .navbar {
@@ -102,6 +117,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 #home .logo-content {
@@ -116,7 +132,6 @@ body {
 }
 
 #home .header {
-  min-height: 100vh;
   background-image: url(../img/bg-header.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -341,20 +356,6 @@ body {
   font-size: 1.5rem;
 }
 
-.pricing-link .green-button {
-  padding: 1rem 2rem;
-  color: #ffffff;
-  border-radius: 2rem;
-  background-color: #166a53;
-  -webkit-transition: ease-in-out 0.3s;
-  transition: ease-in-out 0.3s;
-}
-
-.pricing-link .green-button:hover {
-  background-color: #fbb816;
-  color: #166a53;
-}
-
 #footer .footer {
   min-height: 100vh;
   background-image: url(../img/bg-footer.png);
@@ -377,10 +378,85 @@ body {
   font-size: 2rem;
 }
 
+#package-page {
+  position: relative;
+}
+
+#package-page .logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#package-page .logo-content {
+  display: inline-block;
+  background-color: #fbb816;
+  border-bottom-right-radius: 100px;
+}
+
+#package-page .logo-image {
+  width: 100px;
+  padding: 1rem 2rem 2rem 1rem;
+}
+
+#package-page .header {
+  background-image: url(../img/bg-header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 50vh;
+}
+
+#package-page .header-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fbb816;
+}
+
+#package-page .header-description {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+#package-page .header-image {
+  max-width: 250px;
+}
+
+#package-table .package-content {
+  min-height: 80vh;
+}
+
+#package-table .facilities-item {
+  padding: 0.75rem 0.5rem;
+  border-top: 1px solid grey;
+}
+
+#package-table .facilities-item:first-child {
+  border-bottom: 1px solid grey;
+  border-top: none;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#package-table table td {
+  text-align: center;
+  padding: 0.75rem 0.5rem;
+  border-top: 1px solid grey;
+}
+
+#package-table table th {
+  border-bottom: 1px solid grey;
+  text-align: center;
+  padding: 0.75rem 0.5rem;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 992px) {
   #home .header,
   #project .project,
-  #footer .footer {
+  #footer .footer,
+  #package-page .header {
     padding: 5rem 0;
     background-size: cover;
     background-position: cover;
@@ -392,6 +468,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .green-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: 1.5rem;
+  }
   .navbar {
     padding-right: 0;
     right: 0;
@@ -425,6 +505,28 @@ body {
   #home .header-description {
     font-size: 1rem;
     color: #ffffff;
+  }
+  #package-page .logo-image {
+    width: 60px;
+    padding: 0.5rem 1rem 1rem 0.5rem;
+  }
+  #package-page .header-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fbb816;
+  }
+  #package-page .header-description {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  #package-table .facilities-item {
+    padding: 0.75rem 0.25rem;
+    font-size: 0.9rem;
+  }
+  #package-table table td,
+  #package-table table th {
+    font-size: 0.9rem;
+    padding: 0.75rem 0.25rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
