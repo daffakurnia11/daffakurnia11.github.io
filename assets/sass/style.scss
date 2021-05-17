@@ -125,6 +125,7 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 5rem;
     min-height: 100vh;
     &-title {
       font-size: 3rem;
@@ -200,6 +201,7 @@ body {
 #project {
   position: relative;
   .project {
+    padding: 5rem 0 7rem;
     min-height: 100vh;
     background-image: url(../img/bg-home.png);
     background-size: 100% 100%;
@@ -313,6 +315,7 @@ body {
 
 #footer {
   .footer {
+    padding-top: 5rem;
     min-height: 100vh;
     background-image: url(../img/bg-footer.png);
     background-size: 100% 100%;
@@ -426,6 +429,13 @@ body {
       padding: 0.75rem 0.5rem;
       font-weight: bolder;
     }
+  }
+}
+
+@media screen and (max-height: 576px) {
+  .about,
+  .pricing {
+    margin: 0;
   }
 }
 
