@@ -498,10 +498,18 @@ body {
   .about,
   .pricing {
     margin: 0;
+    padding-top: 4rem;
   }
 }
 
 @media screen and (max-width: 768px) {
+  #home .header,
+  #project .project,
+  #footer .footer,
+  #package-page .header {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
   .green-button {
     padding: 0.75rem 1.5rem;
     border-radius: 1.5rem;
