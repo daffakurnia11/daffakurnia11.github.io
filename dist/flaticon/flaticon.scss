@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?e95df9d7eb22a9d402abbb1f75a76185") format("truetype"),
-url("./flaticon.woff?e95df9d7eb22a9d402abbb1f75a76185") format("woff"),
-url("./flaticon.woff2?e95df9d7eb22a9d402abbb1f75a76185") format("woff2"),
-url("./flaticon.eot?e95df9d7eb22a9d402abbb1f75a76185#iefix") format("embedded-opentype"),
-url("./flaticon.svg?e95df9d7eb22a9d402abbb1f75a76185#flaticon") format("svg");
+    src: url("./flaticon.ttf?8eae067ef7c3bc3e69ff8dc390e90702") format("truetype"),
+url("./flaticon.woff?8eae067ef7c3bc3e69ff8dc390e90702") format("woff"),
+url("./flaticon.woff2?8eae067ef7c3bc3e69ff8dc390e90702") format("woff2"),
+url("./flaticon.eot?8eae067ef7c3bc3e69ff8dc390e90702#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8eae067ef7c3bc3e69ff8dc390e90702#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -49,6 +49,8 @@ $flaticon-map: (
     "qr-code": "\f11a",
     "personal-information": "\f11b",
     "link": "\f11c",
+    "email": "\f11d",
+    "configuration": "\f11e",
 );
 
 .flaticon-menu:before {
@@ -134,4 +136,10 @@ $flaticon-map: (
 }
 .flaticon-link:before {
     content: map-get($flaticon-map, "link");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-configuration:before {
+    content: map-get($flaticon-map, "configuration");
 }

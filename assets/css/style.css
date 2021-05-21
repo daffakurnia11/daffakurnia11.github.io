@@ -435,7 +435,7 @@ body {
 }
 
 #package-table .facilities-item {
-  padding: 0.75rem 0.5rem;
+  padding: 1.25rem 0.5rem;
   border-top: 1px solid grey;
 }
 
@@ -448,14 +448,14 @@ body {
 
 #package-table table td {
   text-align: center;
-  padding: 0.75rem 0.5rem;
+  padding: 1.25rem 0.5rem;
   border-top: 1px solid grey;
 }
 
 #package-table table th {
   border-bottom: 1px solid grey;
   text-align: center;
-  padding: 0.75rem 0.5rem;
+  padding: 1.25rem 0.5rem;
   font-weight: bolder;
 }
 
