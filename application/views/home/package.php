@@ -31,7 +31,7 @@
       </div>
       <h2 class="package-content-title text-center">Packages and Pricing</h2>
       <div class="row mt-4">
-        <div class="col-5 col-md-3 col-lg-2 facilities">
+        <div class="col-5 col-md-3 col-lg-2 facilities mx-0 px-0">
           <div class="facilities-item">Specifications</div>
           <div class="facilities-item">Harga</div>
           <div class="facilities-item">Max Page</div>
@@ -41,9 +41,9 @@
           <div class="facilities-item">SSL</div>
           <div class="facilities-item">Special Features</div>
         </div>
-        <div class="col-7 col-md-9 col-lg-10">
+        <div class="col-7 col-md-9 col-lg-10 mx-0 px-0">
           <div class="table-responsive">
-            <table class="">
+            <table>
               <thead>
                 <tr class="d-flex text-center">
                   <th scope="col" class="col-3">Landing Page</th>
@@ -60,16 +60,16 @@
               </thead>
               <tbody>
                 <tr class="d-flex">
-                  <td class="col-3 fw-bolder">400k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">950k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">1450k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">1850k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">2350k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">2600k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">3600k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">4550k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">5550k <span>/proyek</span></td>
-                  <td class="col-3 fw-bolder">325k <span>/page</span></td>
+                  <td class="col-3 fw-bolder">400k /proyek</td>
+                  <td class="col-3 fw-bolder">950k /proyek</td>
+                  <td class="col-3 fw-bolder">1450k /proyek</td>
+                  <td class="col-3 fw-bolder">1850k /proyek</td>
+                  <td class="col-3 fw-bolder">2350k /proyek</td>
+                  <td class="col-3 fw-bolder">2600k /proyek</td>
+                  <td class="col-3 fw-bolder">3600k /proyek</td>
+                  <td class="col-3 fw-bolder">4550k /proyek</td>
+                  <td class="col-3 fw-bolder">5550k /proyek</td>
+                  <td class="col-3 fw-bolder">325k /page</td>
                 </tr>
                 <tr class="d-flex">
                   <td class="col-3">1</td>
