@@ -532,6 +532,7 @@ body {
 
 .package-features .feature-description {
   font-size: 0.9rem;
+  padding: 0px 1.5rem;
 }
 
 @media screen and (max-height: 650px) {

@@ -31,7 +31,7 @@
       </div>
       <h2 class="package-content-title text-center">Packages and Pricing</h2>
       <div class="row mt-4">
-        <div class="col-5 col-md-3 col-lg-2 facilities mx-0 px-0">
+        <div class="col-5 col-md-3 col-lg-2 facilities pe-0">
           <div class="facilities-item">Specifications</div>
           <div class="facilities-item">Harga</div>
           <div class="facilities-item">Max Page</div>
@@ -41,7 +41,7 @@
           <div class="facilities-item">SSL</div>
           <div class="facilities-item">Special Features</div>
         </div>
-        <div class="col-7 col-md-9 col-lg-10 mx-0 px-0">
+        <div class="col-7 col-md-9 col-lg-10 ps-0">
           <div class="table-responsive">
             <table>
               <thead>
@@ -167,8 +167,8 @@
             </div>
           </div>
           <h4 class="feature-title">File Management System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Mengunggah dan mengunduh file dengan mudah
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -178,8 +178,8 @@
             </div>
           </div>
           <h4 class="feature-title">Present Code System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Sistem kode presensi sebagai syarat kehadiran
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -189,8 +189,8 @@
             </div>
           </div>
           <h4 class="feature-title">Scoring System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Sistem pemberian nilai yang mudah dan real-time
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -200,8 +200,8 @@
             </div>
           </div>
           <h4 class="feature-title">Schedule Management System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Mengatur dan menampilkan jadwal kegiatan atau tenggat waktu
           </p>
         </div>
       </div>
@@ -214,8 +214,8 @@
             </div>
           </div>
           <h4 class="feature-title">Shopping Cart System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Apa arti e-commerce tanpa keranjang belanja di dalamnya
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -225,8 +225,8 @@
             </div>
           </div>
           <h4 class="feature-title">Shipping Cost Estimation</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Estimasi ongkos kirim dengan ekspedisi dan daerah yang lengkap
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -236,8 +236,8 @@
             </div>
           </div>
           <h4 class="feature-title">Invoice Tracking System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Customer dapat melacak proses produk melalui kode pemesanan
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -247,8 +247,8 @@
             </div>
           </div>
           <h4 class="feature-title">Referral Code System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Kode referral seperti diskon produk untuk beberapa customer
           </p>
         </div>
         <div class="mt-4 col-md">
@@ -258,8 +258,8 @@
             </div>
           </div>
           <h4 class="feature-title">Personal Information Form</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Formulir data pribadi seperti alamat pengiriman
           </p>
         </div>
       </div>
@@ -273,8 +273,8 @@
             </div>
           </div>
           <h4 class="feature-title">Shorten Link</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Penyingkat tautan untuk kemudahan akses website
           </p>
         </div>
         <!-- <div class="mt-4 col-md-3">
@@ -295,8 +295,8 @@
             </div>
           </div>
           <h4 class="feature-title">Registration Form</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Pengguna dapat mendaftarkan akun pada website
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -306,8 +306,8 @@
             </div>
           </div>
           <h4 class="feature-title">Admin Access</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Hak akses oleh pemilik untuk mengatur website
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -317,8 +317,8 @@
             </div>
           </div>
           <h4 class="feature-title">User-role Access</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Akses beberapa pengguna dengan akses fitur yang berbeda
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -328,8 +328,8 @@
             </div>
           </div>
           <h4 class="feature-title">Data Management</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Menambah, menghapus, dan mengubah data di dalam website
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -339,8 +339,8 @@
             </div>
           </div>
           <h4 class="feature-title">Data Report</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Penyajian data laporan yang dikemas dan dapat diunduh
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -350,8 +350,8 @@
             </div>
           </div>
           <h4 class="feature-title">Content Management System</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Mengatur isi konten seperti katalog sesuai keinginanmu
           </p>
         </div>
         <div class="mt-4 col-md-3">
@@ -361,8 +361,8 @@
             </div>
           </div>
           <h4 class="feature-title">Email Verification</h4>
-          <p class="feature-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            maxime?
+          <p class="feature-description">
+            Konfirmasi dan verifikasi email pengguna secara otomatis
           </p>
         </div>
       </div>
