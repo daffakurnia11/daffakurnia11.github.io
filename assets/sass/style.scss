@@ -317,20 +317,35 @@ body {
 		background-image: url(../img/bg-footer.png);
 		background-size: 100% 100%;
 		background-position: center;
+		&-link {
+			color: $white-color;
+			text-decoration: none;
+			transition: ease-in-out 0.3s;
+			&:hover {
+				span,
+				i,
+				p {
+					color: $yellow-color;
+				}
+			}
+		}
 	}
 	h2 {
-		color: $white-color;
+		color: $yellow-color;
 		font-size: 1.5rem;
 		font-weight: 700;
 	}
-	.contact {
-		a {
-			color: $white-color;
-			text-decoration: none;
-			i {
-				font-size: 2rem;
-			}
-		}
+	i {
+		line-height: 0;
+		color: $white-color;
+		font-size: 1rem;
+	}
+	p,
+	span {
+		color: $white-color;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
 	}
 }
 
@@ -489,9 +504,14 @@ body {
 @media screen and (max-width: 992px) {
 	#home .header,
 	#project .project,
-	#footer .footer,
 	#package-page .header {
 		padding: 5rem 0;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#footer .footer {
+		padding: 10rem 0 5rem;
 		background-size: cover;
 		background-position: center;
 	}

@@ -363,19 +363,37 @@ body {
   background-position: center;
 }
 
-#footer h2 {
+#footer .footer-link {
   color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+#footer .footer-link:hover span,
+#footer .footer-link:hover i,
+#footer .footer-link:hover p {
+  color: #fbb816;
+}
+
+#footer h2 {
+  color: #fbb816;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-#footer .contact a {
+#footer i {
+  line-height: 0;
   color: #ffffff;
-  text-decoration: none;
+  font-size: 1rem;
 }
 
-#footer .contact a i {
-  font-size: 2rem;
+#footer p,
+#footer span {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
 }
 
 #package-page {
@@ -545,9 +563,13 @@ body {
 @media screen and (max-width: 992px) {
   #home .header,
   #project .project,
-  #footer .footer,
   #package-page .header {
     padding: 5rem 0;
+    background-size: cover;
+    background-position: center;
+  }
+  #footer .footer {
+    padding: 10rem 0 5rem;
     background-size: cover;
     background-position: center;
   }

@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?8eae067ef7c3bc3e69ff8dc390e90702") format("truetype"),
-url("./flaticon.woff?8eae067ef7c3bc3e69ff8dc390e90702") format("woff"),
-url("./flaticon.woff2?8eae067ef7c3bc3e69ff8dc390e90702") format("woff2"),
-url("./flaticon.eot?8eae067ef7c3bc3e69ff8dc390e90702#iefix") format("embedded-opentype"),
-url("./flaticon.svg?8eae067ef7c3bc3e69ff8dc390e90702#flaticon") format("svg");
+    src: url("./flaticon.ttf?ddc27c041f30285959a76f0caaed36bd") format("truetype"),
+url("./flaticon.woff?ddc27c041f30285959a76f0caaed36bd") format("woff"),
+url("./flaticon.woff2?ddc27c041f30285959a76f0caaed36bd") format("woff2"),
+url("./flaticon.eot?ddc27c041f30285959a76f0caaed36bd#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ddc27c041f30285959a76f0caaed36bd#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -51,6 +51,8 @@ $flaticon-map: (
     "link": "\f11c",
     "email": "\f11d",
     "configuration": "\f11e",
+    "pin": "\f11f",
+    "phone-call": "\f120",
 );
 
 .flaticon-menu:before {
@@ -142,4 +144,10 @@ $flaticon-map: (
 }
 .flaticon-configuration:before {
     content: map-get($flaticon-map, "configuration");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon-map, "pin");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
 }
