@@ -8,7 +8,6 @@ class Shortenlink extends CI_Controller
     parent::__construct();
 
     date_default_timezone_set("Asia/Jakarta");
-    $this->load->model('Activity_model', 'activity');
   }
 
   public function redirect($original)

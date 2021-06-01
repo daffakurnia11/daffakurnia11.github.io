@@ -8,8 +8,6 @@ class Admin extends CI_Controller
     parent::__construct();
 
     date_default_timezone_set("Asia/Jakarta");
-    $this->load->model('Login_model', 'login');
-    $this->load->model('Activity_model', 'activity');
   }
 
   public function login()
@@ -27,13 +25,13 @@ class Admin extends CI_Controller
       $username = $this->input->post('username');
       $password = $this->input->post('password');
 
-      $this->login($username, $password);
+      $this->login->login($username, $password);
     }
   }
 
   public function logout()
   {
-    $this->logout();
+    $this->login->logout();
   }
 
   public function activity()

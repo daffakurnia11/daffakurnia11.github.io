@@ -3,6 +3,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Login_model extends CI_Model
 {
+  public function __construct()
+  {
+    parent::__construct();
+
+    date_default_timezone_set("Asia/Jakarta");
+  }
+
   public function login($username, $password)
   {
     $data = $this->db->get_where('admin', ['username' => $username])->row_array();
@@ -30,7 +37,7 @@ class Login_model extends CI_Model
   public function logout()
   {
     $this->db->set('logout_at', date("H:i:s d-m-Y"));
-    $this->db->where('username', $this->session->userdata['username']);
+    $this->db->where('username', $this->session->userdata('username'));
     $this->db->update('admin');
 
     $this->session->unset_userdata('username');
