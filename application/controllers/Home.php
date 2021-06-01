@@ -12,8 +12,10 @@ class Home extends CI_Controller
 
 	public function package()
 	{
+		$data['packages'] = $this->db->get('package')->result_array();
+
 		$this->load->view('templates/header');
-		$this->load->view('home/package');
+		$this->load->view('home/package', $data);
 		$this->load->view('templates/footer');
 	}
 }

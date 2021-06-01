@@ -46,105 +46,46 @@
             <table>
               <thead>
                 <tr class="d-flex text-center">
-                  <th scope="col" class="col-3">Landing Page</th>
-                  <th scope="col" class="col-3">Landing Page+</th>
-                  <th scope="col" class="col-3">Small Business</th>
-                  <th scope="col" class="col-3">Medium Business</th>
-                  <th scope="col" class="col-3">Professional Business</th>
-                  <th scope="col" class="col-3">Webinar Website</th>
-                  <th scope="col" class="col-3">Event Website</th>
-                  <th scope="col" class="col-3">Mini Classroom</th>
-                  <th scope="col" class="col-3">E-Commerce Website</th>
-                  <th scope="col" class="col-3">Custom Website</th>
+                  <?php foreach ($packages as $package) : ?>
+                    <th scope="col" class="col-3"><?= $package['package']; ?></th>
+                  <?php endforeach; ?>
                 </tr>
               </thead>
               <tbody>
                 <tr class="d-flex">
-                  <td class="col-3 fw-bolder">400k /proyek</td>
-                  <td class="col-3 fw-bolder">950k /proyek</td>
-                  <td class="col-3 fw-bolder">1450k /proyek</td>
-                  <td class="col-3 fw-bolder">1850k /proyek</td>
-                  <td class="col-3 fw-bolder">2350k /proyek</td>
-                  <td class="col-3 fw-bolder">2600k /proyek</td>
-                  <td class="col-3 fw-bolder">3600k /proyek</td>
-                  <td class="col-3 fw-bolder">4550k /proyek</td>
-                  <td class="col-3 fw-bolder">5550k /proyek</td>
-                  <td class="col-3 fw-bolder">325k /page</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3 fw-bolder"><?= $package['price']; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
-                  <td class="col-3">1</td>
-                  <td class="col-3">1</td>
-                  <td class="col-3">5</td>
-                  <td class="col-3">5</td>
-                  <td class="col-3">8</td>
-                  <td class="col-3">5</td>
-                  <td class="col-3">10</td>
-                  <td class="col-3">Unlimited</td>
-                  <td class="col-3">Unlimited</td>
-                  <td class="col-3">Unlimited</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= $package['page']; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
-                  <td class="col-3">2 Minggu</td>
-                  <td class="col-3">2 Minggu</td>
-                  <td class="col-3">2 Minggu</td>
-                  <td class="col-3">1 Bulan</td>
-                  <td class="col-3">1 Bulan</td>
-                  <td class="col-3">2 Minggu</td>
-                  <td class="col-3">1 Bulan</td>
-                  <td class="col-3">2 Bulan</td>
-                  <td class="col-3">2 Bulan</td>
-                  <td class="col-3">1 Bulan</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= $package['maintenance']; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
-                  <td class="col-3">-</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">Free Domain</td>
-                  <td class="col-3">-</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= $package['domain']; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
-                  <td class="col-3">-</td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3">-</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= ($package['hosting'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
-                  <td class="col-3">-</td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3"><i class="flaticon-check-mark"></i></td>
-                  <td class="col-3">-</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= ($package['has_ssl'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
+                  <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex pb-3 pb-md-5">
-                  <td class="col-3">Static</td>
-                  <td class="col-3">Static</td>
-                  <td class="col-3">Static</td>
-                  <td class="col-3">Shorten Link</td>
-                  <td class="col-3">Admin Access, Data Management, Content Management System (CMS)</td>
-                  <td class="col-3">Registration Form, Admin Access, Data Management, Email Verification</td>
-                  <td class="col-3">Registraion Form, Admin Access, Data Management, Content Management System (CMS),
-                    Email Verification, Shorten Link</td>
-                  <td class="col-3">Registration Form, User-role Access, Data Management, Data Report, Present Code
-                    System, Scoring System, Files Management System, Schedule Management System</td>
-                  <td class="col-3">Admin Access, Data Management, Data Report, Content Management System (CMS), Shopping Cart
-                    System, Shipping Cost Estimation, Invoice Tracking System, Referral Code System</td>
-                  <td class="col-3">Static</td>
+                  <?php foreach ($packages as $package) : ?>
+                    <td class="col-3"><?= $package['specials']; ?></td>
+                  <?php endforeach; ?>
                 </tr>
               </tbody>
             </table>
