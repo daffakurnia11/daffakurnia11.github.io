@@ -1,0 +1,119 @@
+@font-face {
+	font-family: "flaticon";
+	src: url("./flaticon.ttf?ddc27c041f30285959a76f0caaed36bd") format("truetype"),
+		url("./flaticon.woff?ddc27c041f30285959a76f0caaed36bd") format("woff"),
+		url("./flaticon.woff2?ddc27c041f30285959a76f0caaed36bd") format("woff2"),
+		url("./flaticon.eot?ddc27c041f30285959a76f0caaed36bd#iefix")
+			format("embedded-opentype"),
+		url("./flaticon.svg?ddc27c041f30285959a76f0caaed36bd#flaticon")
+			format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+	font-family: flaticon !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-menu:before {
+	content: "\f101";
+}
+.flaticon-check-mark:before {
+	content: "\f102";
+}
+.flaticon-discussion:before {
+	content: "\f103";
+}
+.flaticon-loss:before {
+	content: "\f104";
+}
+.flaticon-clock:before {
+	content: "\f105";
+}
+.flaticon-sound-mixer:before {
+	content: "\f106";
+}
+.flaticon-instagram:before {
+	content: "\f107";
+}
+.flaticon-whatsapp:before {
+	content: "\f108";
+}
+.flaticon-gmail:before {
+	content: "\f109";
+}
+.flaticon-line:before {
+	content: "\f10a";
+}
+.flaticon-linkedin:before {
+	content: "\f10b";
+}
+.flaticon-registration:before {
+	content: "\f10c";
+}
+.flaticon-admin:before {
+	content: "\f10d";
+}
+.flaticon-man:before {
+	content: "\f10e";
+}
+.flaticon-folder-management:before {
+	content: "\f10f";
+}
+.flaticon-monitor:before {
+	content: "\f110";
+}
+.flaticon-files:before {
+	content: "\f111";
+}
+.flaticon-delivery:before {
+	content: "\f112";
+}
+.flaticon-catalog:before {
+	content: "\f113";
+}
+.flaticon-location:before {
+	content: "\f114";
+}
+.flaticon-score:before {
+	content: "\f115";
+}
+.flaticon-immigration:before {
+	content: "\f116";
+}
+.flaticon-speech-bubble:before {
+	content: "\f117";
+}
+.flaticon-online-shop:before {
+	content: "\f118";
+}
+.flaticon-calendar:before {
+	content: "\f119";
+}
+.flaticon-qr-code:before {
+	content: "\f11a";
+}
+.flaticon-personal-information:before {
+	content: "\f11b";
+}
+.flaticon-link:before {
+	content: "\f11c";
+}
+.flaticon-email:before {
+	content: "\f11d";
+}
+.flaticon-configuration:before {
+	content: "\f11e";
+}
+.flaticon-pin:before {
+	content: "\f11f";
+}
+.flaticon-phone-call:before {
+	content: "\f120";
+}
