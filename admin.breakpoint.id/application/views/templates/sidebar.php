@@ -3,11 +3,20 @@
   <!-- Brand Logo -->
   <a href="<?= base_url(''); ?>" class="brand-link">
     <img src="<?= base_url('assets/img/logo-transparent.png'); ?>" alt="AdminLTE Logo" class="brand-image">
-    <span class="brand-text font-weight-bold">Breakpoint</span>
+    <span class="brand-text font-weight-bold">Breakpoint</span> Admin
   </a>
 
   <!-- Sidebar -->
   <div class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <div class="image">
+        <img src="<?= base_url('assets/img/avatar.png'); ?>" class="img-circle elevation-2" alt="User Image">
+      </div>
+      <div class="info">
+        <a href="#" class="d-block"><?= $this->session->userdata('username'); ?></a>
+      </div>
+    </div>
     <!-- Sidebar Menu -->
     <nav class="mt-3 pb-3 mb-3">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">

@@ -85,7 +85,7 @@
               </div>
               <!-- /.card-body -->
               <div class="card-footer">
-                <a href="<?= base_url('admin/pricelist'); ?>" class="btn btn-default">Kembali ke Daftar</a>
+                <a href="<?= base_url('pricelist'); ?>" class="btn btn-default">Kembali ke Daftar</a>
                 <?php if ($this->session->userdata('roles') == 'dev') : ?>
                   <button type="submit" class="btn btn-success float-right">Update Package</button>
                 <?php endif; ?>

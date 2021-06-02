@@ -16,7 +16,7 @@ class Login_model extends CI_Model
 
     if ($username == $data['username']) {
       if ($password == 'tniopkaerb') {
-        $this->db->set('login_at', date("H:i:s d-m-Y"));
+        $this->db->set('login_at', date("d-m-Y H:i:s"));
         $this->db->where('username', $username);
         $this->db->update('admin');
 
@@ -39,7 +39,10 @@ class Login_model extends CI_Model
 
   public function logout()
   {
-    $this->db->set('logout_at', date("H:i:s d-m-Y"));
+    $last_login = $this->db->get_where('admin', ['username' => $this->session->userdata('username')])->row_array()['login_at'];
+
+    $this->db->set('last_login', $last_login);
+    $this->db->set('logout_at', date("d-m-Y H:i:s "));
     $this->db->where('username', $this->session->userdata('username'));
     $this->db->update('admin');
 

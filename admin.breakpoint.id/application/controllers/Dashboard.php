@@ -57,8 +57,9 @@ class Dashboard extends CI_Controller
       redirect('login');
     }
     $data = [
-      'title'   => 'Admin Activity',
-      'admins'  => $this->db->get('admin')->result_array()
+      'title'       => 'Admin Activity',
+      'admins'      => $this->db->get('admin')->result_array(),
+      'activities'  => $this->activity->all_activity()
     ];
 
     $this->load->view('templates/header', $data);

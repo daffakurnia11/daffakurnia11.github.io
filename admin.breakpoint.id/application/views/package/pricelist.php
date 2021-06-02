@@ -58,7 +58,7 @@
                   <td><?= $package['specials']; ?></td>
                   <td class="text-nowrap"><?= $package['price']; ?></td>
                   <td class="text-nowrap">
-                    <a href="<?= base_url('admin/updatepackage/' . $package['id']); ?>" class="btn btn-success">
+                    <a href="<?= base_url('dashboard/updatepackage/' . $package['id']); ?>" class="btn btn-success">
                       <i class="fas fa-pen"></i>
                     </a>
                   </td>

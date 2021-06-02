@@ -57,4 +57,5 @@ $route['dashboard'] = 'dashboard';
 $route['login'] = 'dashboard/login';
 $route['shortenlink'] = 'shortenlink';
 $route['activity'] = 'dashboard/activity';
+$route['userinfo'] = 'dashboard/userinfo';
 $route['pricelist'] = 'dashboard/pricelist';
