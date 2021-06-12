@@ -111,36 +111,56 @@
     <div class="project d-flex flex-column justify-content-center">
       <div class="container">
         <div class="row align-items-center justify-content-center">
-          <div class="col-lg-7">
+          <div class="col-lg-10">
             <h2 class="text-center">Proyek Sebelumnya</h2>
-            <div class="text-end my-3">
-              <a href="" class="project-link">Lihat Semua >></a>
+            <div class="row project-image justify-content-center">
+              <div class="col-md-4 my-3">
+                <img src="<?= base_url('assets/img/project/project1.png'); ?>" alt="Pelatihan Pemrograman Python">
+                <p>Pelatihan Pemrograman Python</p>
+                <span>[Mini Classroom]</span>
+              </div>
+              <div class="col-md-4 my-3">
+                <img src="<?= base_url('assets/img/project/project2.png'); ?>" alt="Ini Lho ITS! 2021">
+                <p>Ini Lho ITS! 2021</p>
+                <span>[Event Website]</span>
+              </div>
+              <div class="col-md-4 my-3">
+                <img src="<?= base_url('assets/img/project/project3.png'); ?>" alt="Esentika">
+                <p>Esentika</p>
+                <span>[Company Profile]</span>
+              </div>
+              <div class="col-md-4 my-3">
+                <img src="<?= base_url('assets/img/project/project4.png'); ?>" alt="Archproject.id">
+                <p>Archproject.id</p>
+                <span>[Event Website]</span>
+              </div>
+              <div class="col-md-4 my-3">
+                <img src="<?= base_url('assets/img/project/project5.png'); ?>" alt="daffakurnia.me">
+                <p>daffakurnia.me</p>
+                <span>[Personal Website]</span>
+              </div>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <h2 class="text-center mb-3">Mitra Kepercayaan Kami</h2>
+            <div class="underlined"></div>
+            <div class="row partners-image">
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/its.png'); ?>" alt="">
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/img/project1.png" class="d-block text-center" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/project2.png" class="d-block text-center" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/project3.png" class="d-block text-center" alt="...">
-                </div>
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/ilits.png'); ?>" alt="">
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/ecs.png'); ?>" alt="">
+              </div>
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/archproject.png'); ?>" alt="">
+              </div>
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/esentika.png'); ?>" alt="">
+              </div>
+              <div class="col-6 col-md-4 col-lg-2 text-center">
+                <img src="<?= base_url('assets/img/partners/nurbuminusa.png'); ?>" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -156,37 +176,39 @@
             <div class="row mx-2">
               <div class="col-md-4 order-2 order-md-1 my-2">
                 <div class="pricing-content text-center">
-                  <h4>Landing Page+</h4>
-                  <h3>950K<span>/proyek</span></h3>
+                  <h4>Optimum Project</h4>
+                  <h6>Start from</h6>
+                  <h3>1450K<span>/proyek</span></h3>
                   <div class="pricing-details mt-3 mb-5 text-start px-4">
-                    <p><i class="flaticon-check-mark me-2"></i>1 Halaman</p>
+                    <p><i class="flaticon-check-mark me-2"></i>5 Halaman</p>
                     <p><i class="flaticon-check-mark me-2"></i>2 Minggu Gratis Revisi</p>
                     <p><i class="flaticon-check-mark me-2"></i>Free Domain</p>
-                    <p><i class="flaticon-check-mark me-2"></i>Static Website</p>
+                    <p><i class="flaticon-check-mark me-2"></i>2 Premium Features</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 order-1 order-md-2 my-3">
                 <div class="pricing-content text-center active">
-                  <h4>E-commerce Website</h4>
-                  <h3>5550k<span>/proyek</span></h3>
+                  <h4>Enterprise Project</h4>
+                  <h3>Call Us!</h3>
                   <div class="pricing-details mt-3 mb-5 text-start px-4">
-                    <p><i class="flaticon-check-mark me-2"></i>Unlimited</p>
+                    <p><i class="flaticon-check-mark me-2"></i>Unlimited Pages</p>
                     <p><i class="flaticon-check-mark me-2"></i>2 Bulan Gratis Revisi</p>
                     <p><i class="flaticon-check-mark me-2"></i>Free Domain</p>
-                    <p><i class="flaticon-check-mark me-2"></i>5+ Fitur Premium</p>
+                    <p><i class="flaticon-check-mark me-2"></i>Unlimited Features</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 order-3 order-md-3 my-2">
                 <div class="pricing-content text-center">
-                  <h4>Professional Business</h4>
-                  <h3>2350k<span>/proyek</span></h3>
+                  <h4>Premium Project</h4>
+                  <h6>Start from</h6>
+                  <h3>2600k<span>/proyek</span></h3>
                   <div class="pricing-details mt-3 mb-5 text-start px-4">
-                    <p><i class="flaticon-check-mark me-2"></i>8 Halaman</p>
+                    <p><i class="flaticon-check-mark me-2"></i>15 Halaman</p>
                     <p><i class="flaticon-check-mark me-2"></i>1 Bulan Gratis Revisi</p>
                     <p><i class="flaticon-check-mark me-2"></i>Free Domain</p>
-                    <p><i class="flaticon-check-mark me-2"></i>2+ Fitur Premium</p>
+                    <p><i class="flaticon-check-mark me-2"></i>4+ Fitur Premium</p>
                   </div>
                 </div>
               </div>

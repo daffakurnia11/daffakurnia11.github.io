@@ -32,53 +32,31 @@
               <span class="ps-3">breakpoint.idn@gmail.com</span>
             </p>
           </a>
-          <h2 class="mt-3">Jam Buka</h2>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <h2>Jam Buka</h2>
           <p class="py-1">Senin - Jumat (07.00 WIB - 17.00 WIB)</p>
           <p class="py-1">Sabtu (09.00 WIB - 15.00 WIB)</p>
           <p class="py-1">Minggu (LIBUR)</p>
           <p class="py-1">Konsultasi 24/7 Jam</p>
         </div>
-        <div class="col-sm-6 col-md-4">
-
-        </div>
         <div class="col-sm-12 col-md-4">
           <h2 class="text-center text-md-start">Paket dan Harga</h2>
-          <div class="row">
-            <div class="col-sm-6 col-md-12">
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Custom Website</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Landing Page</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Landing Page+</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Small Business</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Medium Business</p>
-              </a>
-            </div>
-            <div class="col-sm-6 col-md-12">
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Professional Business</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Webinar Website</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Event Website</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">Mini Classroom</p>
-              </a>
-              <a href="<?= base_url('package'); ?>" class="footer-link">
-                <p class="py-1">E-commerce Website</p>
-              </a>
-            </div>
-          </div>
+          <a href="<?= base_url('package'); ?>" class="footer-link">
+            <p class="py-1">Landing Page</p>
+          </a>
+          <a href="<?= base_url('package'); ?>" class="footer-link">
+            <p class="py-1">Optimum Project</p>
+          </a>
+          <a href="<?= base_url('package'); ?>" class="footer-link">
+            <p class="py-1">Premium Project</p>
+          </a>
+          <a href="<?= base_url('package'); ?>" class="footer-link">
+            <p class="py-1">Ultimate Project</p>
+          </a>
+          <a href="<?= base_url('package'); ?>" class="footer-link">
+            <p class="py-1">Enterprise Project</p>
+          </a>
         </div>
       </div>
     </div>

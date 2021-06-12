@@ -31,9 +31,9 @@
       </div>
       <h2 class="package-content-title text-center">Packages and Pricing</h2>
       <div class="row mt-4">
-        <div class="col-5 col-md-3 col-lg-2 facilities pe-0">
+        <div class="col-6 col-md-3 col-lg-2 facilities pe-0">
           <div class="facilities-item">Specifications</div>
-          <div class="facilities-item">Harga</div>
+          <div class="facilities-item">Harga (Start from)</div>
           <div class="facilities-item">Max Page</div>
           <div class="facilities-item">Maintenance</div>
           <div class="facilities-item">Domain</div>
@@ -41,50 +41,50 @@
           <div class="facilities-item">SSL</div>
           <div class="facilities-item">Special Features</div>
         </div>
-        <div class="col-7 col-md-9 col-lg-10 ps-0">
+        <div class="col-6 col-md-9 col-lg-10 ps-0">
           <div class="table-responsive">
             <table>
               <thead>
                 <tr class="d-flex text-center">
                   <?php foreach ($packages as $package) : ?>
-                    <th scope="col" class="col-3"><?= $package['package']; ?></th>
+                    <th scope="col" class="col-4"><?= $package['package']; ?></th>
                   <?php endforeach; ?>
                 </tr>
               </thead>
               <tbody>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3 fw-bolder"><?= $package['price']; ?></td>
+                    <td class="col-4 fw-bolder text-nowrap"><?= $package['price']; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= $package['page']; ?></td>
+                    <td class="col-4"><?= $package['page']; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= $package['maintenance']; ?></td>
+                    <td class="col-4"><?= $package['maintenance']; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= $package['domain']; ?></td>
+                    <td class="col-4"><?= $package['domain']; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= ($package['hosting'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
+                    <td class="col-4"><?= ($package['hosting'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= ($package['has_ssl'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
+                    <td class="col-4"><?= ($package['has_ssl'] == 1) ? '<i class="flaticon-check-mark"></i>' : '-'; ?></td>
                   <?php endforeach; ?>
                 </tr>
                 <tr class="d-flex pb-3 pb-md-5">
                   <?php foreach ($packages as $package) : ?>
-                    <td class="col-3"><?= $package['specials']; ?></td>
+                    <td class="col-4"><?= $package['specials']; ?></td>
                   <?php endforeach; ?>
                 </tr>
               </tbody>
